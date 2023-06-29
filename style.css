@@ -202,9 +202,34 @@
     width: 220px;
 }
 
+.filters-check {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filters-radio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filters-show-button {
+    margin-top: 45px;
+    width: 220px;
+    height: 40px;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    border-color: #3d546f;
+    border-radius: 3px;
+}
+
 .catalog-list {
     width: 876px;
     margin-left: auto;
+}
+
+.catalog-list-select {
+    width: 280px;
+    height: 40px;
 }
 
 .catalog-list-grid {
@@ -280,6 +305,7 @@
 .descrip-first {
     margin-top: 11px;
     margin-bottom: 11px;
+    color: #a9a9a9;
 }
 
 .descrip-second {
