@@ -394,6 +394,7 @@
     background-color: #fcfcfc;
     text-align: left;
     margin-bottom: 53px;
+    box-shadow: 5px 5px 5px 0px rgba(185, 185, 185, 0.5);
 }
 
 .services-type:not(:last-child) {
@@ -407,4 +408,105 @@
 .type-par {
     width: 300px;
     margin: 0 auto 75px auto;
+}
+
+.about-contacts-container {
+    display: flex;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+    margin-bottom: 50px;
+}
+
+.about {
+    width: 500px ;
+    margin-right: auto;
+}
+
+.show-about-button {
+    width: 195px;
+    height: 45px;
+    background-color: #ee3643;
+    color: #fcfcfc;
+    border: none;
+    border-radius: 5px;
+    margin-top: 52px;
+}
+
+.about h2 {
+    margin: 0;
+    margin-bottom: 23px;
+}
+
+.about p {
+    margin-bottom: 23px;
+}
+
+.contacts {
+    width: 500px;
+}
+
+.contacts h2 {
+    margin: 0;
+    margin-bottom: 23px;
+}
+
+.contacts p {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.map-contacts {
+    width: 500px;
+    height: 347px;
+}
+
+.footer-page {
+    background-color: #3d546f;
+}
+
+.footer-container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-contacts {
+    width: 352px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-link-button {
+    display: inline-block;
+    width: 220px;
+    background-color: #ee3643;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+
+.search-footer {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: #fcfcfc;
+}
+
+.footer-links-adress {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.footer-links-tel {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.footer-social {
+    display: flex;
+    margin-bottom: 35px;
+    list-style-type: none;
 }
