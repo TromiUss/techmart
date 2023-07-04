@@ -64,7 +64,7 @@
             <div class="shop-variety-containers first">
                 <h2 class="shop-grid-header">Материалы</h2>
                 <span class="shop-variety-icon"></span>
-                <a href="" class="shop-variety-link">
+                <a href="#!" class="shop-variety-link">
                     <span class="shop-variety-icon"></span>
                     <p>на любой вкус</p>
                 </a>
@@ -72,7 +72,7 @@
             <div class="shop-variety-containers second">
                 <h2 class="shop-grid-header">инструмент</h2>
                 <span class="shop-variety-icon"></span>
-                <a href="" class="shop-variety-link">
+                <a href="#!" class="shop-variety-link">
                     <span class="shop-variety-icon"></span>
                     <p>на все случаи </p>
                 </a>
@@ -80,19 +80,49 @@
             <div class="shop-variety-containers third">
                 <h2 class="shop-grid-header">техника</h2>
                 <span class="shop-variety-icon"></span>
-                <a href="" class="shop-variety-link">
+                <a href="#!" class="shop-variety-link">
                     <span class="shop-variety-icon"></span>
                     <p>для стройки</p>
                 </a>
             </div>
             <div class="shop-variety-containers fourth">
-                <img src="/images/first-slaid-pic.png" alt="">
-                <div class="slaid"></div>
+                <section class="slider-section-f" id="slider_bl">
+                    <div class="wrapper-cont">
+                      <input checked type=radio name="slider" id="slide1" />
+                      <input type=radio name="slider" id="slide2" />
+                      <div class="slider-wrapper">
+                        <div class=inner>
+                          <article>
+                            <div class="info top-left">
+                              <h3>Дрели</h3>
+                              <p>Соседям на радость!</p>
+                            </div>
+                            <img src="/images/first-slaid-pic.png" />
+                          </article>
+                          <article>
+                            <div class="info top-left">
+                              <h3>Перфораторы </h3>
+                              <p>Соседям на радость!</p>
+                            </div>
+                            <img src="/images/second-slaid-pic.png" />
+                          </article>
+                        </div>
+                      </div>
+                      <div class="slider-prev-next-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                      </div>
+                      <div class="slider-dot-control">
+                        <label for=slide1></label>
+                        <label for=slide2></label>
+                      </div>
+                    </div>
+                </section>
             </div>
             <div class="shop-variety-containers fifth">
                 <h2 class="shop-grid-header">скидки 50%</h2>
                 <span class="shop-variety-icon"></span>
-                <a href="" class="shop-variety-link">
+                <a href="#!" class="shop-variety-link">
                     <span class="shop-variety-icon"></span>
                     <p>на 350 товаров</p>
                 </a>
@@ -100,7 +130,7 @@
             <div class="shop-variety-containers six">
                 <h2 class="shop-grid-header">доставка</h2>
                 <span class="shop-variety-icon"></span>
-                <a href="" class="shop-variety-link">
+                <a href="#!" class="shop-variety-link">
                     <span class="shop-variety-icon"></span>
                     <p>бесплатно</p>
                 </a>
@@ -109,11 +139,26 @@
         <section class="catalog-choose">
             <h2 class="catalog-choose-header">Пeрфораторы</h2>
             <div class="filters">
-                <div>
+                <div class="slider-price">
                     <p>Цена</p>
-                    <label for=""></label>
+                    <div class="wrapper">
+                        <div class="values">
+                            <span class="input-filters" id="range1">
+                                0
+                            </span>
+                            <span class="dash-span"> &dash; </span>
+                            <span class="input-filters" id="range2">
+                                30000
+                            </span>
+                        </div>
+                        <div class="container">
+                            <div class="slider-track"></div>
+                            <input type="range" min="0" max="30000" value="0" id="slider-1" oninput="slideOne()">
+                            <input type="range" min="0" max="30000" value="30000" id="slider-2" oninput="slideTwo()">
+                        </div>
+                    </div>
                 </div>
-                <div>
+                <div class="checkbox-part">
                     <p>Производители</p>
                     <label class="filters-check" for="">
                         <input type="checkbox" name="" id="">
@@ -139,11 +184,11 @@
                 <div>
                     <p>Питание</p>
                     <label class="filters-radio" for="">
-                        <input type="radio" name="power" id="">
+                        <input class="input-radio" type="radio" name="power" id="">
                         <p>Аккумуляторные</p>
                     </label>
                     <label class="filters-radio" for="">
-                        <input type="radio" name="power" id="">
+                        <input class="input-radio" type="radio" name="power" id="">
                         <p>Сетевые</p>
                     </label>
                 </div>
@@ -297,20 +342,20 @@
                 Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
             <div class="services-type-container">
                 <section class="services-type">
-                    <span class="services-icon"></span>
+                    <span class="services-icon first-icon"></span>
                     <h3 class="type-header">Доставка</h3>
                     <p class="type-par">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
                         бесплатно! Ведь мы неплохо заработаем,
                         поднимая его на ваш этаж!</p>
                 </section>
                 <section class="services-type">
-                    <span class="services-icon"></span>
+                    <span class="services-icon second-icon"></span>
                     <h3 class="type-header">Гарантия</h3>
                     <p class="type-par">Вы в течение года можете написать нам письмо с просьбой вернуть сумму оплаты, и
                         мы полностью возместим вам стоимось товара</p>
                 </section>
                 <section class="services-type">
-                    <span class="services-icon"></span>
+                    <span class="services-icon third-icon"></span>
                     <h3 class="type-header">Кредит</h3>
                     <p class="type-par">Вы можете оформить кредит прямо на сайте! Для этого нужно выбрать понравившийся
                         товар и заполнить поля и ждать результата одобрения кредита.
@@ -341,7 +386,7 @@
                 <a class="footer-link-button" href="#">
                     <h2 class="search-footer">Техномарт</h2>
                 </a>
-                <a class="footer-links-adress" href="#" type="adress">г. Санкт-Петербург, ул. Б.
+                <a class="footer-links-adress" href="#!" type="adress">г. Санкт-Петербург, ул. Б.
                     Конюшенная, д. 19/8</a>
                 <a class="footer-links-tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
                 <ul class="footer-social">
@@ -357,10 +402,26 @@
                 </ul>
             </div>
             <div class="footer-back-mail">
-
+                    <p>Обратная связь:</p>
+                    <a class="mail-back-link" href="#!" type="mail">mail@htmlacademy.ru</a>
+                <label class="label-footer-back" for="">
+                    Получайте лучшие предложения
+                    <input class="input-label-footer" type="mail" name="" placeholder="email@example.com" id="">
+                    <button class="submit-button-label-footer">
+                        <span class="submit-footer-icon"></span>
+                    </button>
+                </label>
+            </div>
+        </div>
+        <div class="footer-last">
+            <div class="footer-last-container">
+                <p class="copir">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+                <p>Разработано —</p>
+                <a class="mail-back-link" href="#!" type="mail">mail@htmlacademy.ru</a>
             </div>
         </div>
     </footer>
+    <script src="js.js"></script>
 </body>
 
 </html>
